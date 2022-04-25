@@ -1,0 +1,39 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+
+h1{
+	text-align: center;
+	background-color: rgb(45, 45, 134);
+	color: white;
+	padding: 30px;
+}
+
+nav ul{
+	background-color: rgb(212, 212, 212);
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline-flex;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	padding: 15px;
+	width: 200px;
+}
+
+nav li:hover{
+	background-color: white;
+}
+
+body {
+	background:#ffffff;
+	color:rgb(41, 40, 40);
+	font-family:Arial, helvetica, sans-serif;
+}
