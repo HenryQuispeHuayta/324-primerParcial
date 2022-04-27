@@ -1,17 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer Parcial</title>
-</head>
-<body>
-    <?php
-        include "conexion.php";
-        // incluirAcceso(4,'andrea','andrea');
-        incluirInscripcion(1,'INF-325',20,20,25);
-        // incluirPersona(1,'henry QH','1994-03-20',02);
-    ?>
-</body>
-</html>
+<?php include('1/header.php') ?>
+    <div class="body">
+        <div class="seccion">
+            <div class="separacion">
+                <h2>Misión FCPN</h2>
+                <p>La misión de la FCPN es generar conocimiento científico y tecnológico, y formar investigadores en ciencias puras y naturales altamente calificados con pensamiento crítico, iniciativa, innovadoras, emprendedoras y con responsabilidad social y ambiental; para construir una sociedad boliviana libre, justa, desarrollada, productiva, inclusiva y competitiva. (Segundo Congreso FCPN, 2016)</p>
+            </div>
+            <div class="separacion">
+                <h2>Visión FCPN</h2>
+                <p>La visión de la FCPN es ser una facultad de excelencia reconocida internacionalmente, que lidera la transformación científica y tecnológica del país. (Segundo Congreso FCPN, 2016)</p>
+            </div>
+            <div class="separacion">
+                <h2>Objetivo General</h2>
+                <p>Generar conocimiento reflexivo y crítico enmarcado en las líneas de investigación de la FCPN, para la formación profesional que responda al contexto socio-político local, regional, nacional e internacional, a través de la difusión e innovación que aporten a la solución de las necesidades de la sociedad en su conjunto.</p>
+            </div>
+        </div>
+        <?php include('1/menu.php') ?>
+    </div>
+<?php include('1/footer.php') ?>
