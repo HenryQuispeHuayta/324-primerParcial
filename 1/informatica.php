@@ -27,6 +27,7 @@ Cada profesional informático tiende a la especialización en las áreas de la I
         </div>
         <?php include('menu.php') ?>
     </div>
+    <a href="http://localhost/324-primerParcial/4/"> Notas</a>
 
 
 <?php include('footer.php') ?>
